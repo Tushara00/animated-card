@@ -1,0 +1,319 @@
+*{
+    margin:0;
+    padding:0;box-sizing: border-box;    
+}
+body{
+    overflow:hidden;
+}
+@font-face {
+    font-family: "Segoe UI";
+    src: url(font/SEGOEUI.TTF);
+    src: url(litefont/segoeuil.ttf);
+    font-family: "Segoe UI lite";
+}
+h2{
+    font-family: "Segoe UI lite";
+    font-weight:200;
+   position:relative;
+    Color:white;
+    letter-spacing: 0.5rem;
+   font-size:34px;
+   padding:20px 0
+}
+
+h3{
+    color: rgb(210, 199, 199);
+   padding:20px;
+   font-weight:200;
+   letter-spacing: 0.5rem;
+   font-size:16px;
+   padding:40px 0;
+   font-family:"Segoe UI";
+   line-height:2rem;
+}
+.main-area{  
+    margin:0 auto;
+    width:80vw;
+    height:100vh;
+    position:relative;
+background-image: linear-gradient(to right, #B18CA8, #627AC6);
+}
+.card{
+    background:#343D4F;
+    width:60%;
+    height:auto;
+    position:absolute;
+    text-align: center;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-radius:15px;
+    padding:5rem 2.2rem 2rem
+}
+
+.card-heading h2::after{
+    content:"";
+    width:80%;
+  border-bottom:.5px solid rgba(175, 155, 155, 0.33);
+position:absolute;
+bottom:0%;
+left:50%;
+transform: translate(-50%)
+}
+
+.social-media{
+padding-bottom:60px;
+display:flex;
+flex-wrap:wrap;
+align-items:center;
+padding-top:20px;
+justify-content:center;
+}
+
+.social-media i{
+color:white;
+font-size:30px; 
+padding:10px;
+border-radius:50%;
+ margin-right:20px;
+}
+
+.animation-box div{
+    width:40px;
+    height:40px;
+    background:#b7bac246;
+    position:absolute; 
+    border-radius: 5px;
+}
+.animation-box div:nth-child(1){
+    top:10%;
+    left:30%;
+    animation: square 5s linear infinite;
+}
+.animation-box div:nth-child(1){
+    top:10%;
+    left:30%;
+    animation: square 5s linear infinite;
+}
+
+.animation-box div:nth-child(2){
+    top:10%;
+    left:40%;
+    animation: square 2s linear infinite;
+}
+
+.animation-box div:nth-child(3){
+    top:50%;
+    left:0%;
+    animation: square 3s linear infinite;
+}
+.animation-box div:nth-child(4){
+  
+    bottom:0%;
+    animation: square 3s linear infinite;
+}
+.animation-box div:nth-child(5){
+    bottom:20%;
+    left:10%;
+    animation: square 3s linear infinite;
+}
+.animation-box div:nth-child(6){
+    bottom:5%;
+    left:30%;
+    animation: square 3s linear infinite;
+}
+.animation-box div:nth-child(7){
+    top:10%;
+    left:15%;
+    animation: square 2s linear infinite;
+}
+.animation-box div:nth-child(7){
+    top:0%;
+    left:10%;
+    animation: square 1s linear infinite;
+}
+
+.animation-box div:nth-child(7){
+    right:10%;
+    left:30%;
+    animation: square 5s linear infinite;
+}
+
+.animation-box div:nth-child(8){
+    top:10%;
+    right:30%;
+    animation: square 4s linear infinite;
+}
+
+.animation-box div:nth-child(9){
+    top:10%;
+    right:0%;
+    animation: square 2s linear infinite;
+}
+
+.animation-box div:nth-child(10){
+    top:20%;
+    right:0%;
+    animation: square 14s linear infinite;
+}
+.animation-box div:nth-child(11){
+    top:40%;
+    left:18%;
+    animation: square 2s linear infinite;
+}
+.animation-box div:nth-child(12){
+    top:60%;
+    right:4%;
+    animation: square 4s linear infinite;
+}
+.animation-box div:nth-child(13){
+    top:62%;
+    right:10%;
+    animation: square 3s linear infinite;
+}
+.animation-box div:nth-child(14){
+    top:55%;
+    right:10%;
+    animation: square 2s linear infinite;
+}
+
+.animation-box div:nth-child(15){
+    top:10%;
+    left:0%;
+    animation: square 5s linear infinite;
+}
+.animation-box div:nth-child(16){
+    top:60%;
+    left:10%;
+    animation: square 3s linear infinite;
+}
+.animation-box div:nth-child(17){
+    top:50%;
+    left:15%;
+    animation: square 2s linear infinite;
+}
+.animation-box div:nth-child(18){
+    bottom:10%;
+    left:40%;
+    animation: square 4s linear infinite;
+}
+.animation-box div:nth-child(19){
+    bottom:10%;
+    left:50%;
+    animation: square 3s linear infinite;
+}
+.animation-box div:nth-child(20){
+    top:10%;
+    right:15%;
+    animation: square 5s linear infinite;
+}
+.animation-box div:nth-child(21){
+    bottom:10%;
+    right:25%;
+    animation: square 2s linear infinite;
+}
+.animation-box div:nth-child(22){
+    bottom:13%;
+    right:22%;
+    animation: square 1s linear infinite;
+}
+
+.animation-box div:nth-child(23){
+    bottom:8%;
+    right:18%;
+    animation: square 5s linear infinite;
+}
+.animation-box div:nth-child(24){
+    top:10%;
+    left:15%;
+    animation: square 4s linear infinite;
+}
+
+
+.animation-box div:nth-child(25){
+    top:20%;
+    right:15%;
+    animation: square 3s linear infinite;
+}
+
+.animation-box div:nth-child(26){
+    top:30%;
+    right:5%;
+    animation: square 2s linear infinite;
+}
+
+.animation-box div:nth-child(27){
+    top:40%;
+    right:15%;
+    animation: square 2s linear infinite;
+}
+
+
+@keyframes square{
+    0%{
+       
+        opacity:1;
+    }
+    100%{
+        
+        opacity:0;
+    }
+}
+
+
+.uil-twitter{
+    background:#7DBBD0;
+}
+
+.uil-facebook-f{
+    background: #8DA5D8;
+}
+.uil-phone{
+    background:#83B78E;
+}
+
+.uil-envelope-alt{
+    background: #D3AEC0;
+    margin-right:0 !important;
+}
+
+@media only screen and (max-width:800px){
+    .social-media {
+gap:2rem;
+margin-right:0;
+padding-bottom:0;
+padding-top:0px;
+    }
+    h3{
+        font-size:14px;
+    }
+    h2{
+        font-size: 20px;
+       padding-top:0; 
+    }
+    .card{
+        padding:2rem 2rem 2rem;
+    }
+    .uil-facebook-f{
+        margin-right: 0px !important;
+    }
+}
+
+@media only screen and (max-width:450px){
+.social-media i {
+    margin-right:0;
+    font-size:10px;
+}
+h2{
+    font-size:10px;
+}
+h3{
+    font-size:10px; 
+    line-height:16px;
+    text-align:justify;
+    letter-spacing:5px
+}
+}
+
+
+
